@@ -1,0 +1,93 @@
+.head {
+    padding: 20px 0;
+    color: #fff;
+}
+
+.logo h1 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.head .icon {
+    margin-left: 10px;
+}
+
+/* ------------------header--------------------- */
+header {
+    background-color: rgba(225, 225, 225, .2);
+    margin: 0 30px;
+    position: relative;
+}
+
+header nav ul {
+    gap: 40px;
+    padding: 30px 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    font-weight: 500;
+    transition: .5s;
+}
+
+header nav ul li a:hover {
+    color: #1eb2a6;
+}
+
+.start {
+    background-color: #1eb2a6;
+    padding: 30px 70px;
+    color: #fff;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.start button {
+    background: none;
+    border: none;
+    color: currentColor;
+}
+
+.toggle {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .start {
+        clip-path: none;
+    }
+
+    header {
+        margin: 0;
+        background-color: #1eb2a6;
+        position: relative;
+    }
+
+    header ul.flexSB {
+        display: none;
+    }
+
+    header ul li {
+        margin-bottom: 20px;
+    }
+
+    .toggle {
+        display: block;
+        background: none;
+        color: #fff;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 30px;
+        outline: none;
+        cursor: pointer;
+    }
+
+    .mobile-nav{
+        position: absolute;
+        top: 7vh;
+        left: 0;
+        width: 100%;
+        background-color: #1eb2a6;
+        transition: .5s;
+    }
+}

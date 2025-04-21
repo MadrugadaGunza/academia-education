@@ -1,48 +1,25 @@
-import React from "react";
-import "./App.css";
-import Navbar from "./components/Navbar";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+// components
+import Header from "./components/heading/Header";
+// pages
+import Home from "./pages/home/Home";
+import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
+import Course from "./pages/course/Course";
 
-function App() {
-  const [data, setData] = React.useState(null);
-  const [loading, setLoading] = React.useState(false);
-  const [error, setError] = React.useState(null);
-
-  React.useEffect(() => {
-    const findAllUsers = async () => {
-      try {
-        setError(null);
-        setLoading(true);
-        const response = await fetch("http://localhost:5000/user");
-        console.log(response);
-        const result = await response.json();
-        console.log(result);
-        setData(result);
-      } catch (error) {
-        setError(error.message);
-      } finally {
-        setLoading(false);
-      }
-    };
-    findAllUsers();
-  }, []);
-
-  if (loading) return <h1>Loading...</h1>;
-  if (error) return <h4>Erro: {error}</h4>;
+const App = () => {
 
   return (
-    <>
-      <Navbar />
-      <div className="container">
-        {data &&
-          data.map((user) => (
-            <div key={user._id} className="card">
-              <h5>Nome: {user.name}</h5>
-              <h5>Email: {user.email}</h5>
-            </div>
-          ))}
-      </div>
-    </>
-  );
+    <BrowserRouter>
+      <Header />
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/courses" element={<Course />} />
+      </Routes>
+    </BrowserRouter>
+  )
 }
 
 export default App;
