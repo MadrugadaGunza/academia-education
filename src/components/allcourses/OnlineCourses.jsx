@@ -1,4 +1,3 @@
-// import React from 'react'
 import { online } from '../../dummydata';
 import Title from './../title/Title';
 
