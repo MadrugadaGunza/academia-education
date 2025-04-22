@@ -1,0 +1,31 @@
+.testiomonal .items {
+    padding: 30px;
+    transition: .5s;
+}
+
+.testiomonal .img {
+    position: relative;
+}
+
+.testiomonal img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.testiomonal i {
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    background-color: #1eb2a6;
+    color: #fff;
+}
+
+.testiomonal .name {
+    margin: 25px;
+}
+
+.testiomonal .name h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+}

@@ -6,6 +6,7 @@ import Home from "./pages/home/Home";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import Course from "./pages/course/Course";
+import Team from "./pages/team/Team";
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/courses" element={<Course />} />
+        <Route path="/team" element={<Team />} />
       </Routes>
     </BrowserRouter>
   )
