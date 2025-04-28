@@ -29,3 +29,29 @@
     font-size: 20px;
     margin-bottom: 5px;
 }
+
+.testiomonal .name span {
+    color: #1eb2a6;
+}
+
+.testiomonal .name p {
+    color: #1eb2a6;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+.testiomonal .items:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+}
+
+.testiomonal .items:hover p,
+.testiomonal .items:hover span {
+    color: #fff;
+}
+
+.testiomonal .items:hover i {
+    background-color: #fff;
+    color: #1eb2a6;
+}
