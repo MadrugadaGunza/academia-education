@@ -7,7 +7,7 @@ const Test = () => {
         <>
             <section className="testiomonal padding">
                 <div className="container">
-                    <Title subtitle='testiomonal' title='our successeful students' />
+                    <Title subtitle='testiomonal' title='nossos alunos bem-sucedidos' />
                     <div className="content grid2">
                         {testimonal.map((val) => (
                             <div className="items shadow" key={val.id}>

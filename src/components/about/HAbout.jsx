@@ -7,7 +7,7 @@ const HAbout = () => {
         <>
             <section className="homeAbout">
                 <div className="container">
-                    <Title subtitle='our courses' title='explore our popular online courses' />
+                    <Title subtitle='nossos cursos' title='explore nossos cursos online' />
                     <div className="courseCard">
                         <div className="grid2">
                             {coursesCard.splice(0, 3).map((val) => (

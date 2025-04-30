@@ -4,7 +4,7 @@ const Head = () => {
             <section className="container flexSB">
                 <div className="logo">
                     <h1>ACADEMIA</h1>
-                    <span>ONLINE EDUCATION & LEARNING</span>
+                    <span>EDUCAÇÃO & APRENDIZAGEM ONLINE</span>
                 </div>
                 <div className="social">
                     <i className="fab fa-facebook-f icon"></i>

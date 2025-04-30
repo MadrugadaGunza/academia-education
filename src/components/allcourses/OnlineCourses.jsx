@@ -6,7 +6,7 @@ const OnlineCourses = () => {
         <>
             <section className="online">
                 <div className="container">
-                    <Title subtitle='COURSES' title='Browse Our Online Courses' />
+                    <Title subtitle='CURSOS' title='Navegue pelos Nossos Cursos Online' />
                     <div className="content grid3">
                         {online.map((val) => (
                             <div className="box" key={val.courseName}>

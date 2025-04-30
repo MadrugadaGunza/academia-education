@@ -2,19 +2,19 @@ export const homeAbout = [
     {
         id: 1,
         cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-        title: "Online Courses",
+        title: "Cursos Online",
         desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     },
     {
         id: 1,
         cover: "https://img.icons8.com/ios/80/000000/diploma.png",
-        title: "Earn A Certificates",
+        title: "Ganhe um Certificado",
         desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     },
     {
         id: 1,
         cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-        title: "Learn with Expert",
+        title: "Aprenda com o Expert",
         desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
     },
 ]
@@ -22,35 +22,35 @@ export const awrapper = [
     {
         cover: "https://img.icons8.com/external-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto/80/ffffff/external-graduation-education-yogi-aprelliyanto-basic-outline-yogi-aprelliyanto.png",
         data: "3,000",
-        title: "SUCCESS STORIES",
+        title: "HISTÓRIAS DE SUCESSO",
     },
 
     {
         cover: "https://img.icons8.com/ios/80/ffffff/athlete.png",
         data: "320",
-        title: "TRUSTED TUTORS",
+        title: "TUTORES CONFIÁVEIS",
     },
     {
         cover: "https://img.icons8.com/external-outline-icons-maxicons/80/ffffff/external-calender-insurance-outline-outline-icons-maxicons.png",
         data: "1,000",
-        title: "SCHEDULES",
+        title: "HORÁRIOS",
     },
     {
         cover: "https://img.icons8.com/ios/80/ffffff/macbook-idea--v3.png",
         data: "587",
-        title: "COURSES",
+        title: "CURSOS",
     },
 ]
 export const coursesCard = [
     {
         id: 1,
         cover: "../images/courses/c1.png",
-        coursesName: "Introducing to Software Engineering",
+        coursesName: "Introdução a Engenharia de Software",
         courTeacher: [
             {
                 dcover: "./images/back.webp",
-                name: "by John Smith",
-                totalTime: "50 lectures (190 hrs)",
+                name: "by Domingos Braganha",
+                totalTime: "50 aulas (190 hrs)",
             },
         ],
         priceAll: "$100 All Course",
@@ -59,12 +59,12 @@ export const coursesCard = [
     {
         id: 2,
         cover: "../images/courses/c2.png",
-        coursesName: "Enhancing Adobe Photoshop CC 2020 Skills",
+        coursesName: "Aprimorando as habilidades do Adobe Photoshop CC 2020",
         courTeacher: [
             {
                 dcover: "./images/back.webp",
-                name: "by Ram Gurung",
-                totalTime: "30 lectures (125 hrs)",
+                name: "by Josmy Tómas",
+                totalTime: "30 aulas (125 hrs)",
             },
         ],
         priceAll: "$200 All Course",
@@ -73,12 +73,12 @@ export const coursesCard = [
     {
         id: 3,
         cover: "../images/courses/c3.png",
-        coursesName: "HTML, CSS, and Javascript for Web Developers",
+        coursesName: "HTML, CSS, e Javascript para Desenvolvedor Web",
         courTeacher: [
             {
                 dcover: "./images/back.webp",
-                name: "by Saroj Nepal",
-                totalTime: "50 lectures (50 hrs)",
+                name: "by Madrugada de Carvalho",
+                totalTime: "50 aulas (50 hrs)",
             },
         ],
         priceAll: "$50 All Course",
@@ -87,12 +87,12 @@ export const coursesCard = [
     {
         id: 4,
         cover: "../images/courses/c4.png",
-        coursesName: "Introducing to Programming with WordPress",
+        coursesName: "Introdução a Programação com WordPress",
         courTeacher: [
             {
                 dcover: "./images/back.webp",
-                name: "by Prabin Thapa Mager",
-                totalTime: "20 lectures (20 hrs)",
+                name: "by Nelson",
+                totalTime: "20 aulas (20 hrs)",
             },
         ],
         priceAll: "$30 All Course",
@@ -101,12 +101,12 @@ export const coursesCard = [
     {
         id: 5,
         cover: "../images/courses/c5.png",
-        coursesName: "Introducing to Programming with ReactJS",
+        coursesName: "Introdução a Programação com ReactJS",
         courTeacher: [
             {
                 dcover: "./images/back.webp",
-                name: "by Sunil Bishowkaram",
-                totalTime: "100 lectures (150 hrs)",
+                name: "by Tozé Mandela",
+                totalTime: "100 aulas (150 hrs)",
             },
         ],
         priceAll: "$300 All Course",
@@ -115,12 +115,12 @@ export const coursesCard = [
     {
         id: 6,
         cover: "../images/courses/c6.png",
-        coursesName: "Learn Frontend Programming Language",
+        coursesName: "Aprenda Linguagem de Programação Frontend",
         courTeacher: [
             {
                 dcover: "./images/back.webp",
-                name: "by Sunil Bishowkaram",
-                totalTime: "200 lectures (300 hrs)",
+                name: "by António Pedro",
+                totalTime: "200 aulas (300 hrs)",
             },
         ],
         priceAll: "$500 All Course",
@@ -129,12 +129,12 @@ export const coursesCard = [
     {
         id: 7,
         cover: "../images/courses/c7.png",
-        coursesName: "Introducing to with HTML / CSS",
+        coursesName: "Introdução a HTML & CSS",
         courTeacher: [
             {
                 dcover: "./images/back.webp",
                 name: "by Price",
-                totalTime: "20 lectures (50 hrs)",
+                totalTime: "20 aulas (50 hrs)",
             },
         ],
         priceAll: "$20 All Course",
@@ -143,12 +143,12 @@ export const coursesCard = [
     {
         id: 8,
         cover: "../images/courses/c8.png",
-        coursesName: "Introducing to with JAVA",
+        coursesName: "Introdução a JAVA",
         courTeacher: [
             {
                 dcover: "./images/back.webp",
-                name: "by Petter",
-                totalTime: "80 lectures (200 hrs)",
+                name: "by António Pedro",
+                totalTime: "80 aulas (200 hrs)",
             },
         ],
         priceAll: "$200 All Course",
@@ -157,12 +157,12 @@ export const coursesCard = [
     {
         id: 9,
         cover: "../images/courses/c9.png",
-        coursesName: "Introducing to with HTML / CSS / JAVASCRIPT",
+        coursesName: "Introdução a HTML, CSS e JAVASCRIPT",
         courTeacher: [
             {
                 dcover: "./images/back.webp",
-                name: "by Petter",
-                totalTime: "50 lectures (50 hrs)",
+                name: "by Madrugada de Carvalho",
+                totalTime: "50 aulas (50 hrs)",
             },
         ],
         priceAll: "$20 All Course",
@@ -173,74 +173,74 @@ export const online = [
     {
         cover: "./images/courses/online/o1.png",
         hoverCover: "./images/courses/online/o1.1.png",
-        courseName: "UI/UX Design Courses",
-        course: "25 Courses",
+        courseName: "Curso de UI/UX Design",
+        course: "25 Cursos",
     },
     {
         cover: "./images/courses/online/o2.png",
         hoverCover: "./images/courses/online/o2.1.png",
-        courseName: "Art & Design",
-        course: "25 Courses",
+        courseName: "Arte & Design",
+        course: "25 Cursos",
     },
     {
         cover: "./images/courses/online/o3.png",
         hoverCover: "./images/courses/online/o3.1.png",
-        courseName: "Computer Science",
-        course: "10 Courses",
+        courseName: "Ciência da Computação",
+        course: "10 Cursos",
     },
     {
         cover: "./images/courses/online/o4.png",
         hoverCover: "./images/courses/online/o4.1.png",
-        courseName: "History & Archeologic",
-        course: "15 Courses",
+        courseName: "História & Arquiologia",
+        course: "15 Cursos",
     },
     {
         cover: "./images/courses/online/o5.png",
         hoverCover: "./images/courses/online/o5.1.png",
-        courseName: "Software Engineering",
-        course: "30 Courses",
+        courseName: "Engenharia de Software",
+        course: "30 Cursos",
     },
     {
         cover: "./images/courses/online/o6.png",
         hoverCover: "./images/courses/online/o6.1.png",
-        courseName: "Information Software",
-        course: "60 Courses",
+        courseName: "Informação de Software",
+        course: "60 Cursos",
     },
     {
         cover: "./images/courses/online/o7.png",
         hoverCover: "./images/courses/online/o7.1.png",
-        courseName: "Health & Fitness",
-        course: "10 Courses",
+        courseName: "Saúde & Fitness",
+        course: "10 Cursos",
     },
     {
         cover: "./images/courses/online/o8.png",
         hoverCover: "./images/courses/online/o8.1.png",
         courseName: "Marketing",
-        course: "30 Courses",
+        course: "30 Cursos",
     },
     {
         cover: "./images/courses/online/o9.png",
         hoverCover: "./images/courses/online/o9.1.png",
-        courseName: "Graphic Design",
-        course: "80 Courses",
+        courseName: "Design Gráfico",
+        course: "80 Cursos",
     },
     {
         cover: "./images/courses/online/o10.png",
         hoverCover: "./images/courses/online/o10.1.png",
-        courseName: "Music",
-        course: "120 Courses",
+        courseName: "Música",
+        course: "120 Cursos",
     },
     {
         cover: "./images/courses/online/o11.png",
         hoverCover: "./images/courses/online/o11.1.png",
-        courseName: "Business Administration",
-        course: "17 Courses",
+        courseName: "Administração Empresas",
+        course: "17 Cursos",
     },
     {
         cover: "./images/courses/online/o12.png",
         hoverCover: "./images/courses/online/o12.1.png",
-        courseName: "Web Management",
-        course: "17 Courses",
+        courseName: "Gestão Web",
+        course: "17 Cursos",
     },
 ]
 export const team = [
@@ -392,22 +392,22 @@ export const blog = [
 export const testimonal = [
     {
         id: 1,
-        name: "ROGER SCOTT",
-        post: "MARKETING MANAGER",
+        name: "LENCASTRE",
+        post: "GERENTE MARKETING",
         desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
         cover: "./images/testo/t1.webp",
     },
     {
         id: 2,
-        name: "ROGER SCOTT",
-        post: "MARKETING MANAGER",
+        name: "CÁRTER",
+        post: "Eng. SOFTWARE",
         desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
         cover: "./images/testo/t2.webp",
     },
     {
         id: 3,
-        name: "ROGER SCOTT",
-        post: "MARKETING MANAGER",
+        name: "BRAGANHA",
+        post: "DESIGNER",
         desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
         cover: "./images/testo/t3.webp",
     },

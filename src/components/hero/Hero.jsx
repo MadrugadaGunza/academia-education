@@ -8,14 +8,14 @@ const Hero = () => {
             <section className='hero'>
                 <div className="container">
                     <div className="row">
-                        <Title subtitle='WELCOME TO ACADEMIA' title='Best Online Education' />
+                        <Title subtitle='BEM-VINDO À ACADEMIA' title='Melhor Educação Online' />
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam libero doloribus tempore illo architecto quibusdam, dignissimos quod ipsa adipisci distinctio suscipit beatae, ipsam voluptates neque quam recusandae omnis? Placeat, assumenda.</p>
                         <div className="button">
                             <button className="primary-btn">
-                                GET STARTED NOW <i className="fa fa-long-arrow-alt-right"></i>
+                                COMECE AGORA <i className="fa fa-long-arrow-alt-right"></i>
                             </button>
                             <button>
-                                VIEW COURSE <i className="fa fa-long-arrow-alt-right"></i>
+                                VER CURSOS <i className="fa fa-long-arrow-alt-right"></i>
                             </button>
                         </div>
                     </div>

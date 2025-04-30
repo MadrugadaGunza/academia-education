@@ -1,0 +1,38 @@
+.newlatter {
+    background-color: #1eb2a6;
+    margin-top: 50px;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.newlatter .right,
+.newlatter .left {
+    padding-right: 50px;
+}
+
+.newlatter h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.newlatter .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newlatter input{
+    width: 100%;
+    padding: 20px;
+    border: none;
+    outline: none;
+    height: 30px;
+}
+
+.newlatter i{
+    padding: 12px;
+    color: #1eb2a6;
+    background-color: #fff;
+}

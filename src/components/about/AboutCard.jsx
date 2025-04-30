@@ -12,7 +12,7 @@ const AboutCard = () => {
                         <img src={imgAbout} alt="about image" />
                     </div>
                     <div className="right row">
-                        <Title subtitle='LEARN ANYTHING' title='Benefits About Online Learing Expertise' />
+                        <Title subtitle='APRENDA QUALQUER COISA' title='Benefícios Sobre a Experiência de Aprendizagem Online' />
                         <div className="items">
                             {homeAbout.map((val) => (
                                 <div className="item flexSB" key={val.id}>
